@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 screen = Tk()
-screen.title('TIC-TAC-TOE')
+screen.title('TIC-TAC-TOE~XO')
 
 #Framework
 def disable_all():
@@ -19,7 +19,7 @@ def disable_all():
     b9.config(state='disable')
 
 def check_win():
-    global winner
+    global winner = False
     winner = False
     win = 'light green'
 
